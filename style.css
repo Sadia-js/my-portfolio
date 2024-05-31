@@ -1,0 +1,380 @@
+/* nav-section starts here */
+.nav-section{
+    background-color:#1e1e1e;
+    display: flex;
+    gap: 240px;
+    height: 66px;
+    margin-top: 30px;
+}
+.logo-option h1{
+    color: #fd6f00;
+    font-size: 2rem;
+}    
+.nav-list{
+    display: flex;
+    gap: 50px;
+}
+.nav-list li{
+    list-style: none;
+}
+.nav-list a{
+    text-decoration: none;
+    color: var(--font-primary-color);
+}
+.download-button button{
+    background-color:var(--background-text-color);
+    padding: 8px 12px;
+    color: var(--font-primary-color);
+}
+/* nav-section ends here */
+
+/* profile-section starts here */
+.banner-section{
+    color: var(--font-primary-color);
+    margin: 60px 0;
+}
+.profile-container{
+    display: flex;
+    height: 377px;
+
+}
+.desc-section{
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    font-weight: 900;
+    padding: 10px 0;
+}    
+.brief-bio{
+    width: 40%;
+}
+.staus{
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300px;
+    font-size: 14px;
+    letter-spacing: -1.5%;
+    display: flex;
+    gap: 20px;
+}
+.Portfolio-button{
+    margin-top: 15px;
+    width: 220px;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10PX;
+    border: 2px #a7a7a7;
+    border-radius: 50px;
+    background-color: #343434;
+}
+.left-button{
+    width: 140px;
+    padding: 10px, 20px, 10px, 20px;
+    background-color: var(--background-text-color);
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.note a{
+    text-decoration: none;
+    color: var(--font-primary-color);
+}
+.up-right-icon{
+    height: 33px;
+}
+.social-media-profile-link{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+.round-picture{
+    width: 60%;
+}
+.round-picture img{
+    margin-top: 40px;
+    width: 100%;
+    height: 391px;
+    border: 6px solid #b37b57;
+    background-color: black;
+    border-radius: 50%;
+   
+}
+.frame-collection{
+    width: 1255px;
+    height: 60px; 
+    transform: rotate(-8deg);
+    background-color: black;
+}
+.board-list{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+}
+.board-list a{
+    text-decoration: none;
+    color: var(--font-primary-color);
+}
+.board-list img{
+    width: 25px;
+}
+
+/* profile-section ends here */
+
+/* about-me-section starts */
+.about-me-section{
+      display: flex;
+      margin-top: 90px;
+}
+.informations{
+    font-family: "Rubik";
+    text-transform: uppercase;
+    color: var(--font-primary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.informations h1{
+    font-size: 40px;
+    font-weight: 800px;
+}
+.informations p{
+    width: 60%;
+    font-size: 13px;
+    font-weight: 400px;
+
+}
+.career-goals{
+    font-family: "Rubik";
+    color: var(--font-primary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.highlights img{
+    height: 32px;
+    width: 150px;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+.years-knowledge h1{
+    font-size: 1.8rem;
+    width: 140px;
+    font-weight: 700px;
+}
+.quality {
+    text-align: end;
+    width: 103px;
+    font-size: 12px;
+}
+/* about-me-section ends */
+
+/* achievements section starts */
+.achievements-section{
+    margin: 50px 0;
+    background-image: url(./media/BG.png);
+    color: var(--font-primary-color);
+    font-family: "Open Sans";
+    display: flex;
+    align-items: center;
+}
+.my-experince{
+    width: 50%;
+}
+.my-experince h1{
+    margin: 6px 0;
+}
+.achievements-section h1{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.showcases-part{
+    display: flex;
+    gap: 8px;
+}
+.right-showcase-part{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 70px 50px;
+}
+.column-decoration{
+    display: flex;
+}
+.design-title{
+    font-size: 30px;
+}
+/* achievements section ends */
+
+/* awards section starts */
+.award-bgc{
+    color: var(--font-primary-color);
+    background-color: black;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 50px;
+}
+.awards-titile-head{
+    font-family: "Rubik";
+    text-align: center;
+    color: var(--font-primary-color);
+}
+.awards-titile-head h1{
+    font-weight: 800;
+    font-size: 1.8rem;
+    padding-bottom: 10px;
+}
+.awards-titile-head p{
+    font-size: 13px;
+}
+.project-design-done h4{
+    margin-bottom: 15px;
+}
+/* awards section ends */
+
+/* portfolio section starts */
+.sides-of-Portfolio{
+    margin-top: 80px;
+    text-align: center;
+    color: var(--font-primary-color);
+}
+.sides-of-Portfolio h1{
+    padding-bottom: 15px;
+}
+.Portfolio-links-here{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.click-link{
+    text-decoration: none;
+    color: var(--font-primary-color);
+    background-color: black;
+    display: inline;
+    padding: 10px 15px;
+}
+#web-design-link{
+    text-decoration: none;
+    color: var(--font-primary-color);
+    background-color: var(--background-text-color);
+    display: inline;
+    padding: 10px 15px;
+
+}
+.thesis-parent{
+    width: 100%;
+    display: flex;
+    gap: 35px;
+}
+.website-research{
+    margin-top: 40px;
+    padding-left: 180px;
+    background-color: black;
+    height: 380px;
+    width: 52%;
+}
+.website-research img{
+    width: 300px;
+    height: 297px;
+}
+.website-img-one{
+    position: relative;
+
+}
+.website-img-two{
+    position: relative;
+    bottom: 218px;
+    right: 100px;
+}
+.research-brief{
+    width: 57%;
+    color: var(--font-primary-color);
+    margin-top: 80px;
+    padding-top: 40px;
+}
+.research-brief h2{
+    margin: 20px 0;
+}
+.research-brief p{
+    padding-bottom: 6px;
+}
+.cards-website{
+    margin-top: 40px;
+    padding-left: 180px;
+    background-color: black;
+    height: 394px;
+    width: 52%;
+}
+.cards-website img{
+    width: 250px;
+    height: 354px;
+}
+.website-card-one{
+    position: relative;
+}
+.website-card-two{
+    position: relative;
+    bottom: 318px;
+    right: 80px;
+}
+/* portfolio section ends */
+
+/* contact section starts */
+.contact-headline{
+    margin-top: 50px;
+    color: var(--font-primary-color);
+    text-align: center;
+}
+
+.contact-form{
+    margin-top: 40px;
+    padding: 80px;
+    background-image: url(./media/BG\ 2.png);
+    color: var(--font-primary-color);
+}
+.reach-out-things{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.name-email-box{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.file-submit{
+    margin-top: 20px;
+}
+.address-section{
+    margin-top: 50px;
+    padding: 50px 80px;
+    font-family: "Open Sans";
+    font-weight: 900px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+/* contact section ends */
+
+/* footer section starts*/
+.footer-part{
+    padding: 20px 80px;
+    color: var(--font-primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}    
+/* footer section ends */

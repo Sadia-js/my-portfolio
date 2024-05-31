@@ -1,0 +1,217 @@
+@media only screen and (min-width:200px) and (max-width: 576px){
+    body{
+        margin: 0 auto;
+    }
+    .nav-section{
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+    }
+    .nav-list{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner-section{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .profile-section{
+        padding: 20px;
+    }
+    .profile-container{
+        flex-direction: column;
+    }
+    .round-picture{
+        width: 250px;
+        padding-right: 0;
+    }
+    .round-picture img{
+        margin-top: 0;
+        border-radius: 45%;
+       
+    }
+    .frame-collection {
+        margin-left: 30px;
+        width: 60%;
+        margin-top: 500px;
+        transform: rotate(0deg);
+    }
+    .board-list{
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+    }
+    .desc-section{
+        font-size: 23px;
+    }
+    .star-creative{
+        width: 16px;
+        height: 16px;
+    }
+    .brief-bio{
+        width: 100%;
+    }
+    .staus {
+        font-size: 8px;
+        gap: 3px;
+    }
+    .Portfolio-button{
+        margin-top: 10px;
+        width: 50%;
+    }
+    .Portfolio-button {
+        margin-top: 7px;
+    }
+    .about-me-section{
+        padding: 20px;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .informations{
+        gap: 6px;
+    }
+    .informations h1{
+        font-size: 16px;
+    }
+    .informations p {
+        width: 100%;
+        font-size: 12px;
+    }   
+
+    .career-goals{
+        margin-top: 13px;
+        gap: 3px;
+    }
+    .achievements-section{
+        flex-direction: column;
+        background-image: none;
+        margin: 0;
+    }
+    .achievements-section h1{
+        font-size: 18px;
+    }
+    .my-experince{
+        padding: 20px;
+        width: 100%;
+    }
+    .my-experince p{
+        font-size: 12px;
+        width: 80%;
+    }
+    .right-showcase-part{
+        padding: 0;
+        margin-right: 50px;
+    }
+    /* award section starts */
+    .awards-section{
+        padding: 20;
+    }
+    .award-bgc {
+        padding: 5px;
+        width: 100%;
+        gap: 0;
+        flex-direction: column;
+    }
+    .awards-titile-head h1{
+        font-size: 1.3rem;
+    }
+    .project-design-done{
+        margin-bottom: 13px;
+    }
+    /* award section ends */
+
+    /* my-Portfolio section starts*/
+    .my-portfolio-section{
+        padding: 020px;
+    }
+    .sides-of-Portfolio {
+        margin-top: 15px;
+        text-align: left;
+    }
+    .sides-of-Portfolio p{
+        width: 100%;
+    }
+    .Portfolio-links-here{
+        width: fit-content;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .thesis-parent{
+        flex-direction: column;
+    }
+    .website-research{
+        margin-top: 10px;
+        padding-left: 40px;
+        height: 140px;
+        width: 40%;
+    }
+    .website-research img{
+        width: 100px;
+        height: 107px;
+    }
+    .website-img-two{
+        bottom: 80px;
+        right: 30px;
+    }
+    .research-brief{
+        width: 57%;
+        margin-top: 15px;
+        padding-top: 0px;
+    }
+    .research-brief h2{
+        margin: 5px;
+        font-size: 16px;
+    }
+    .research-brief p{
+        font-size: 10px;
+    }
+    .cards-website{
+        margin-top: 0px;
+        padding-left: 40px;
+        height: 170px;
+    }
+    .cards-website img{
+        width: 90px;
+        height: 102px;
+    }
+    .website-card-two{
+        bottom: 38px;
+        right: 40px;
+    }    
+    /* my-Portfolio section ends*/
+
+    /* contact-section starts */
+    .contact-section{
+        padding: 0 20px;
+    }
+    .contact-headline {
+        margin-top: 10px;
+        text-align: start;
+    }
+    .form-requirements h1{
+        font-size: 15px;
+    }
+    .name-email-box{
+        flex-direction: column;
+    }
+    .contact-form {
+    margin-top: 30px;
+    padding: 5px 5px 20px 5px;
+    }    
+/* contact-section ends */
+
+/* address-section starts  */
+.address-section {
+    padding: 0 20px;
+    text-align: center;
+}
+/* address-section ends  */
+/* footer section starts */
+.footer-part{
+    padding: 10px 37px;
+    font-size: 10px;
+}
+/* footer section ends */
+}
