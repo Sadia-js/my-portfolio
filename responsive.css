@@ -5,7 +5,7 @@
     .nav-section{
         flex-direction: column;
         gap: 10px;
-        padding: 20px;
+        padding: 5px;
     }
     .nav-list{
         flex-direction: column;
@@ -15,36 +15,44 @@
     .banner-section{
         display: flex;
         flex-direction: column;
-        padding: 20px 0;
+        padding: 5px 0;
     }
     .profile-section{
-        padding: 20px;
+        padding: 0 5px;
     }
     .profile-container{
         flex-direction: column;
+        padding-top: 90px;
+    }
+    .desc-section h1{
+        font-size: 19px;
+    }
+    .desc-section p{
+        font-size: 15px;
     }
     .round-picture{
-        width: 250px;
+        width: 90%;
         padding-right: 0;
     }
     .round-picture img{
-        margin-top: 0;
-        border-radius: 45%;
+        border-radius: 50%;
        
     }
     .frame-collection {
-        margin-left: 30px;
-        width: 60%;
-        margin-top: 500px;
+        height: 70%;
+        width: fit-content;
+        margin: 520px auto auto auto;
+        padding: 5px;
         transform: rotate(0deg);
     }
-    .board-list{
+    .board-list {
+        padding: 20px 0px;
         flex-direction: column;
-        padding: 0;
         gap: 0;
+        font-size: 15px;
     }
-    .desc-section{
-        font-size: 23px;
+    .board-list a{
+        font-size: 25px;
     }
     .star-creative{
         width: 16px;
@@ -59,15 +67,15 @@
     }
     .Portfolio-button{
         margin-top: 10px;
-        width: 50%;
+        width: 70%;
     }
     .Portfolio-button {
-        margin-top: 7px;
+        margin-top: 10px;
     }
     .about-me-section{
-        padding: 20px;
+        padding: 5px;
         flex-direction: column;
-        margin-top: 20px;
+        margin-top: 40px;
     }
     .informations{
         gap: 6px;
@@ -87,13 +95,13 @@
     .achievements-section{
         flex-direction: column;
         background-image: none;
-        margin: 0;
+        margin: 40px 0 0 0;
     }
     .achievements-section h1{
         font-size: 18px;
     }
     .my-experince{
-        padding: 20px;
+        padding: 5px;
         width: 100%;
     }
     .my-experince p{
@@ -106,7 +114,8 @@
     }
     /* award section starts */
     .awards-section{
-        padding: 20;
+        padding: 5px;
+        margin-top: 40px;
     }
     .award-bgc {
         padding: 5px;
@@ -118,13 +127,13 @@
         font-size: 1.3rem;
     }
     .project-design-done{
-        margin-bottom: 13px;
+        margin-bottom: 16px;
     }
     /* award section ends */
 
     /* my-Portfolio section starts*/
     .my-portfolio-section{
-        padding: 020px;
+        padding: 0 5px;
     }
     .sides-of-Portfolio {
         margin-top: 15px;
@@ -140,16 +149,17 @@
     }
     .thesis-parent{
         flex-direction: column;
+        margin-top: 40px;
     }
     .website-research{
         margin-top: 10px;
-        padding-left: 40px;
-        height: 140px;
-        width: 40%;
+        padding-left:40px;
+        height: 180px;
+        width: 60%;
     }
     .website-research img{
-        width: 100px;
-        height: 107px;
+        width: 120px;
+        height: 127px;
     }
     .website-img-two{
         bottom: 80px;
@@ -157,12 +167,12 @@
     }
     .research-brief{
         width: 57%;
-        margin-top: 15px;
+        margin-top: 1px;
         padding-top: 0px;
     }
     .research-brief h2{
         margin: 5px;
-        font-size: 16px;
+        font-size: 20px;
     }
     .research-brief p{
         font-size: 10px;
@@ -184,14 +194,14 @@
 
     /* contact-section starts */
     .contact-section{
-        padding: 0 20px;
+        padding: 0 5px;
     }
     .contact-headline {
-        margin-top: 10px;
+        margin-top: 40px;
         text-align: start;
     }
     .form-requirements h1{
-        font-size: 15px;
+        font-size: 20px;
     }
     .name-email-box{
         flex-direction: column;
@@ -204,14 +214,14 @@
 
 /* address-section starts  */
 .address-section {
-    padding: 0 20px;
+    padding: 0 5px;
     text-align: center;
 }
 /* address-section ends  */
 /* footer section starts */
 .footer-part{
     padding: 10px 37px;
-    font-size: 10px;
+    font-size: 13px;
 }
 /* footer section ends */
 }

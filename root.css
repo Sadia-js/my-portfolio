@@ -16,7 +16,7 @@ body{
     font-family: "Open sans";
     background-color: var(--background);
     margin: 0 auto;
-    max-width: 1300px;
+    max-width: 1265px;
 }
 .nav-section, .banner-section, .about-me-section, .my-experince, .awards-section, .my-portfolio-section{
     padding: 0 50px;
