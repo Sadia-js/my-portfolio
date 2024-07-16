@@ -1,10 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {--background: #1e1e1e;}
+:root {--font-primary-color: white;}
+:root {--background-text-color: #fd6f00;;}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open sans";
+    background-color: var(--background);
+}
+
 /* nav-section starts here */
 .nav-section{
+    width: 90%;
+    margin: 40px auto;
     background-color:#1e1e1e;
     display: flex;
-    gap: 240px;
-    height: 66px;
-    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.nav-section > div{
+    flex: 1;
 }
 .logo-option h1{
     color: #fd6f00;
@@ -12,54 +34,71 @@
 }    
 .nav-list{
     display: flex;
-    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 .nav-list li{
     list-style: none;
+    flex: 1;
 }
 .nav-list a{
     text-decoration: none;
     color: var(--font-primary-color);
 }
-.download-button button{
+.download-button{
+    text-align: end;
     background-color:var(--background-text-color);
     padding: 8px 12px;
     color: var(--font-primary-color);
 }
+
 /* nav-section ends here */
 
 /* profile-section starts here */
 .banner-section{
+    width: 90%;
+    margin: 120px auto 5px auto;
     color: var(--font-primary-color);
-    margin: 60px 0;
 }
 .profile-container{
     display: flex;
-    height: 377px;
-
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
 }
 .desc-section{
     text-transform: uppercase;
-    font-size: 2.3rem;
-    font-weight: 900;
-    padding: 10px 0;
 }    
-.brief-bio{
-    width: 40%;
+.desc-section h1{
+    font-size: 2.4rem;
+    font-weight: 900;
+    margin-bottom: 10px;
 }
-.staus{
+.desc-section h3{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.star-creative{
+    height: 25px;
+}
+.brief-bio{
     margin-top: 15px;
+}
+.status{
+    margin-top: 25px;
     text-transform: uppercase;
     font-family: "Rubik", sans-serif;
-    font-weight: 300px;
     font-size: 14px;
-    letter-spacing: -1.5%;
     display: flex;
+    align-items: center;
     gap: 20px;
 }
+.btn-social-content{
+    margin-top: 30px;
+}
 .Portfolio-button{
-    margin-top: 15px;
-    width: 220px;
+    width: 240px;
     height: 50px;
     padding: 10px;
     display: flex;
@@ -86,34 +125,46 @@
     height: 33px;
 }
 .social-media-profile-link{
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     gap: 20px;
 }
-.round-picture{
-    width: 60%;
+.box-img{
+    position: relative;
+    left: 0;
+    top: 26px;
 }
-.round-picture img{
-    margin-top: 40px;
-    width: 100%;
-    height: 391px;
+.circle-img{
+    position: absolute;
+    bottom: 27px;
+    left: -18px;
+    text-align: center;
+}
+.circle-img img{
+    width: 370px;
+}
+.round-picture{
+    width: 350px;
+    height: 370px;
     border: 6px solid #b37b57;
     background-color: black;
     border-radius: 50%;
-   
 }
+
 .frame-collection{
-    width: 1255px;
-    height: 60px; 
-    transform: rotate(-8deg);
+    border: 3px solid #b37b57;
+    width: 90%;
+    margin: 0 auto;
+    transform: rotate(-5.90deg);
     background-color: black;
 }
 .board-list{
-    padding: 20px 0;
+    padding: 7px 0;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
-    list-style: none;
 }
 .board-list a{
     text-decoration: none;
@@ -127,8 +178,12 @@
 
 /* about-me-section starts */
 .about-me-section{
-      display: flex;
-      margin-top: 90px;
+    width: 90%;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
 }
 .informations{
     font-family: "Rubik";
@@ -177,17 +232,21 @@
 
 /* achievements section starts */
 .achievements-section{
-    margin: 50px 0;
+    width: 90%;
+    margin: 0 auto;
     background-image: url(./media/BG.png);
     color: var(--font-primary-color);
     font-family: "Open Sans";
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 50px 30px;
 }
-.my-experince{
+.my-experience{
     width: 50%;
 }
-.my-experince h1{
+.my-experience h1{
     margin: 6px 0;
 }
 .achievements-section h1{
@@ -203,7 +262,6 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 70px 50px;
 }
 .column-decoration{
     display: flex;
@@ -214,26 +272,31 @@
 /* achievements section ends */
 
 /* awards section starts */
+.awards-section{
+    width: 90%;
+    margin: 120px auto;
+}
 .award-bgc{
     color: var(--font-primary-color);
     background-color: black;
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
-    gap: 60px;
+    align-items: center;
+    gap: 30px;
     padding: 50px;
 }
-.awards-titile-head{
+.awards-title-head{
     font-family: "Rubik";
     text-align: center;
     color: var(--font-primary-color);
 }
-.awards-titile-head h1{
+.awards-title-head h1{
     font-weight: 800;
     font-size: 1.8rem;
     padding-bottom: 10px;
 }
-.awards-titile-head p{
+.awards-title-head p{
     font-size: 13px;
 }
 .project-design-done h4{
@@ -242,19 +305,22 @@
 /* awards section ends */
 
 /* portfolio section starts */
+.my-portfolio-section{
+    width: 90%;
+    margin: 0 auto;
+}
 .sides-of-Portfolio{
-    margin-top: 80px;
     text-align: center;
     color: var(--font-primary-color);
 }
-.sides-of-Portfolio h1{
-    padding-bottom: 15px;
-}
 .Portfolio-links-here{
-    margin-top: 30px;
+    margin: 60px 0;
     display: flex;
     justify-content: center;
-    gap: 60px;
+    align-items: center;
+}
+.sides-of-Portfolio h1{
+    padding-bottom: 15px;
 }
 .click-link{
     text-decoration: none;
@@ -272,16 +338,15 @@
 
 }
 .thesis-parent{
-    width: 100%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 35px;
 }
 .website-research{
-    margin-top: 40px;
     padding-left: 180px;
     background-color: black;
     height: 380px;
-    width: 52%;
 }
 .website-research img{
     width: 300px;
@@ -297,9 +362,7 @@
     right: 100px;
 }
 .research-brief{
-    width: 57%;
     color: var(--font-primary-color);
-    margin-top: 80px;
     padding-top: 40px;
 }
 .research-brief h2{
@@ -330,6 +393,10 @@
 /* portfolio section ends */
 
 /* contact section starts */
+.contact-section{
+    width: 90%;
+    margin: 120px auto;
+}
 .contact-headline{
     margin-top: 50px;
     color: var(--font-primary-color);
@@ -337,8 +404,8 @@
 }
 
 .contact-form{
-    margin-top: 40px;
-    padding: 80px;
+    margin-top: 50px;
+    padding: 50px;
     background-image: url(./media/BG\ 2.png);
     color: var(--font-primary-color);
 }
@@ -346,31 +413,64 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-.name-email-box{
     margin-top: 30px;
+}
+.contact-texts{
     display: flex;
     justify-content: space-between;
 }
-.file-submit{
-    margin-top: 20px;
+#fname, #email-id{
+    outline: none;                
+    background: transparent; 
+    border: none;
+    border-bottom: 1px solid white;
+    width: 40%;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 15px;margin-top: 15px;
+}
+#for-message{
+    outline: none;                
+    background: transparent; 
+    border: none;
+    border-bottom: 1px solid white;
+    width: 40%;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 40px;
+    margin-top: 30px;
+}
+.file-leveling{
+    font-size: 18px;
+    font-weight: bold;
+}
+.file-leveling:hover{
+    color: blue;
+}
+#myfile{
+    display: none;
+}
+::placeholder{
+    color: white;
 }
 .address-section{
-    margin-top: 50px;
-    padding: 50px 80px;
+    height: 400px;
     font-family: "Open Sans";
     font-weight: 900px;
     background-color: black;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    justify-content: center;
     align-items: center;
+    gap: 20px;
+ 
 }
 /* contact section ends */
 
 /* footer section starts*/
 .footer-part{
-    padding: 20px 80px;
+    margin-top: 50px;
+    height: 100px;
     color: var(--font-primary-color);
     display: flex;
     justify-content: center;
