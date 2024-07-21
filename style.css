@@ -40,7 +40,6 @@ body{
 }
 .nav-list li{
     list-style: none;
-    flex: 1;
 }
 .nav-list a{
     text-decoration: none;
@@ -58,7 +57,7 @@ body{
 /* profile-section starts here */
 .banner-section{
     width: 90%;
-    margin: 120px auto 5px auto;
+    margin: 80px auto 5px auto;
     color: var(--font-primary-color);
 }
 .profile-container{
@@ -132,20 +131,20 @@ body{
 .box-img{
     position: relative;
     left: 0;
-    top: 26px;
+    top: 50px;
 }
 .circle-img{
     position: absolute;
-    bottom: 27px;
-    left: -18px;
+    bottom: 15px;
+    left: -8px;
     text-align: center;
 }
 .circle-img img{
-    width: 370px;
+    width: 340px;
 }
 .round-picture{
-    width: 350px;
-    height: 370px;
+    width: 340px;
+    height: 340px;
     border: 6px solid #b37b57;
     background-color: black;
     border-radius: 50%;
@@ -155,7 +154,8 @@ body{
     border: 3px solid #b37b57;
     width: 90%;
     margin: 0 auto;
-    transform: rotate(-5.90deg);
+    /* transform: rotate(-5.90deg); */
+    transform: rotate(-4.25deg);
     background-color: black;
 }
 .board-list{
@@ -326,14 +326,13 @@ body{
     text-decoration: none;
     color: var(--font-primary-color);
     background-color: black;
-    display: inline;
     padding: 10px 15px;
 }
 #web-design-link{
     text-decoration: none;
     color: var(--font-primary-color);
     background-color: var(--background-text-color);
-    display: inline;
+    /* display: inline; */
     padding: 10px 15px;
 
 }
@@ -395,7 +394,7 @@ body{
 /* contact section starts */
 .contact-section{
     width: 90%;
-    margin: 120px auto;
+    margin: 80px auto;
 }
 .contact-headline{
     margin-top: 50px;
@@ -404,7 +403,7 @@ body{
 }
 
 .contact-form{
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 50px;
     background-image: url(./media/BG\ 2.png);
     color: var(--font-primary-color);
@@ -469,7 +468,6 @@ body{
 
 /* footer section starts*/
 .footer-part{
-    margin-top: 50px;
     height: 100px;
     color: var(--font-primary-color);
     display: flex;

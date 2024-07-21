@@ -26,6 +26,20 @@
         align-items: center;
         margin: 50px 0 80px 0;
     }
+    .frame-collection{
+        transform: rotate(-5.4deg);
+    }
+    .round-picture{
+        width: 220px;
+        height: 220px;
+    }
+    .circle-img{
+        bottom: 13px;
+        left: -6px;
+    }
+    .circle-img img{
+        width: 220px;
+    }
     .board-list{
         gap: 10px;
     }
@@ -41,10 +55,12 @@
     width: 100%;
     margin-top: 20px;
    }
-   .achievements-section{
+   .achievements-section, .Portfolio-links-here{
     flex-direction: column;  
-    padding: 30px 10px;
-    margin: 0;
+   }
+   .click-link{
+    flex-direction: column;
+    width: 119px;
    }
    .my-experience, .designer-showcases{
         width: 100%;
@@ -70,4 +86,14 @@
     }
     .address-section{
         height: 600px;
+    }
+}
+/* medium devices */
+@media only screen and (min-width: 577px) and (max-width: 993px){
+    .profile-container, .thesis-parent{
+        flex-direction: column;
+    }
+    .cards-website {
+        width: auto;
+    }
 }
